@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+
+    background: #fffcf2;
+
+    display: grid;
+    place-items: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 640px;
+    height: 300px;
+
+}
+
+.wrapper img{
+    min-width: 0;
+    flex: 1 1 10px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.wrapper img:hover{
+    flex: 1 1 300px;
+}
